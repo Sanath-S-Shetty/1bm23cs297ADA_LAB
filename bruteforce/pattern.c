@@ -4,7 +4,7 @@
 int main() {
     char text[100], pattern[100];
     printf("Enter the text: ");
-    scanf("%s", text);
+    fgets(text,sizeof(text),stdin);
     printf("Enter the pattern: ");
     scanf("%s", pattern);
 
