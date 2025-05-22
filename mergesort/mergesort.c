@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-// Merge two subarrays L and R into arr
+
 void merge(int arr[], int l, int m, int r) {
     int n1 = m - l + 1;
     int n2 = r - m;
@@ -32,7 +32,7 @@ void merge(int arr[], int l, int m, int r) {
     free(R);
 }
 
-// Merge Sort function
+
 void mergeSort(int arr[], int l, int r) {
     if (l < r) {
         int m = l + (r - l) / 2;
